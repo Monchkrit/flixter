@@ -5,6 +5,8 @@ ruby '2.5.3'
 
 gem 'figaro'
 gem 'carrierwave', '~> 1.0'
+gem "mini_magick"
+gem 'carrierwave-aws'
 gem 'simple_form'
 gem'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -31,7 +33,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem "mini_magick"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
