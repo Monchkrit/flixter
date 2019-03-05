@@ -15,14 +15,11 @@
 				<%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
 				<ul>
 					<% section.lessons.each do |lesson| %>
-<<<<<<< HEAD
-=======
 						<li>
 							<b><%= lesson.title %></b>
 								-
 							<%= lesson.subtitle %>
-						</li>	
->>>>>>> 43caecaf876648e139b78945830b6bf0f57d981b
+						</li>
 					<% end %>
 				</ul>
 				<br class="clr" />
