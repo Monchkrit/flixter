@@ -23,7 +23,7 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class=nav-item">
+          <li class="nav-item">
             <%= link_to 'See All Courses', courses_path, class: 'nav-link' %>
           </li>
         </ul>
@@ -53,8 +53,9 @@
     <% if alert.present? %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
-    <%= yield %>
   </div>
+  
+    <%= yield %>
   <div id="footer">
     <div class="container">
       <b>Teachers</b>
