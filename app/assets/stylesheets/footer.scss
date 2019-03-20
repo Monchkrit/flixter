@@ -19,8 +19,17 @@ body {
 	background-color: rgba(160, 204, 114, 0.9);
 	color: white;
 	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 100;
 }
 
 #footer a {
 	color: white;
+}
+
+.social-button {
+	margin: 4px;
+}
+
+.social a:hover {
+	text-decoration: none;
 }

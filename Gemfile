@@ -3,7 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
-gem'jquery-ui-rails'
+gem 'font-awesome-rails'
+gem 'jquery-ui-rails'
 gem 'fog-aws'
 gem 'ranked-model'
 gem 'stripe'
@@ -71,7 +72,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
-gem 'font-awesome-rails'
 gem 'devise'
 
 source 'https://rails-assets.org' do
