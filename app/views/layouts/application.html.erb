@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet">
     <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
 
   <body>
@@ -46,7 +45,6 @@
         </ul>
       </div>
     </nav>
-
     <% if notice.present? %>
       <p class="alert alert-info"><%= notice %></p>
     <% end %>
@@ -58,9 +56,44 @@
     <%= yield %>
   <div id="footer">
     <div class="container">
-      <b>Teachers</b>
-      <br />
-      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <div class="row">
+        <div class="col-12 col-sm-3">
+          <b>Teachers</b>
+          <br />
+          <%= link_to 'Teach a Course', new_instructor_course_path %>
+          <br />
+          <%= link_to 'My Dashboard', dashboard_path %>
+        </div>
+        <div class="col-12 col-sm-3">
+          <b>About</b>
+          <br />
+          <%= link_to 'Team', team_path %>
+          <br />
+          <%= link_to 'Careers', careers_path %>
+          <br />
+          <%= link_to 'Privacy Policy', privacy_path %>
+        </div>
+        <div class="col-12 col-sm-3">
+          <b>Contact</b>
+          <br />
+          my@email.com
+          <br />
+          One Kendall Square
+          <br />
+          Cambridge MA, 02113
+        </div>
+        <div class="col-12 col-sm-3 social">
+          <b>Social</b>
+          <br />
+          <br />
+          <%= link_to 'http://github.com/monchkrit' do %>
+            <span class="fa fa-github-square fa-2x social-button"></span>
+          <% end %>
+          <span class="fa fa-facebook fa-2x social-button"></span>
+          <span class="fa fa-twitter-square fa-2x social-button"></span>
+        </div>
+        </div>
+      </div>
     </div>
   </div>
 
