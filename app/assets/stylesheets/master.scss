@@ -54,9 +54,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 	background: image_url('dark-paths.png')
 }
 
-.navbar-inverse a.navbar-brand {
+a.navbar-brand {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
+	color: white;
+}
+
+a.nav-item {
 	color: white;
 }
 
