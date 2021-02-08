@@ -9,7 +9,7 @@ gem 'fog-aws'
 gem 'ranked-model'
 gem 'stripe'
 gem 'figaro'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem "mini_magick"
 gem 'carrierwave-aws'
 gem 'simple_form'
